@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Git\\EPAM\\UnitTesting\\Triangles\\Triangles.Tests\\Triangles.Tests.csproj": {}
+  },
+  "projects": {
+    "D:\\Git\\EPAM\\UnitTesting\\Triangles\\Triangles.Tests\\Triangles.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Git\\EPAM\\UnitTesting\\Triangles\\Triangles.Tests\\Triangles.Tests.csproj",
+        "projectName": "Triangles.Tests",
+        "projectPath": "D:\\Git\\EPAM\\UnitTesting\\Triangles\\Triangles.Tests\\Triangles.Tests.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\Git\\EPAM\\UnitTesting\\Triangles\\Triangles.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\Git\\EPAM\\UnitTesting\\Triangles\\Triangles\\Triangles.csproj": {
+                "projectPath": "D:\\Git\\EPAM\\UnitTesting\\Triangles\\Triangles\\Triangles.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Git\\EPAM\\UnitTesting\\Triangles\\Triangles\\Triangles.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Git\\EPAM\\UnitTesting\\Triangles\\Triangles\\Triangles.csproj",
+        "projectName": "Triangles",
+        "projectPath": "D:\\Git\\EPAM\\UnitTesting\\Triangles\\Triangles\\Triangles.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}

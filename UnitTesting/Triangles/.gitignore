@@ -1,0 +1,12 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+*.lock
+/build
+/packages
+//Triangles/vs
+/Triangles/obj
+/Triangles/bin
+/Triangles/obj
+/Triangles/bin
+*.suo
+/Triangles.v12.suo
+/Triangles.v12.suo
