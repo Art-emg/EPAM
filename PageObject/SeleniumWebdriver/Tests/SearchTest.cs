@@ -35,7 +35,6 @@ namespace SeleniumWebdriver.Tests
             var subscribeForm = mainPage.InputSubscribeName().InputSubscribeEmail();
             subscribeForm.ClickSubscribeButton();
             Assert.AreEqual(ErrorEmail, subscribeForm.SubscribeMessage.Text);
-            Trace.WriteLine(subscribeForm.SubscribeMessage.Text);
 
         }
 

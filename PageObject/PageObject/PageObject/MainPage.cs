@@ -8,7 +8,7 @@ namespace PageObject.PageObject
 {
     public class MainPage : BasePage
     {
-        private const string accountButtonField = "/html/body/div[3]/div[2]/div/ul[2]/li[1]/a";
+        private const string accountButtonField = "//*[@class=\"user_tools__item cr-sitemenu__login j-sitemenu-login\"]/a";
         private const string registrationButtonOnForm = "//*[@id=\"react-popup\"]/div/div[2]/div[5]/div[2]/a";
         private const string registrationEmailInput = "//*[@id=\"react-popup\"]/div/div[2]/div[2]/div[2]/input";
         private const string confirmRegistrationButton = "//*[@id=\"react-popup\"]/div/div[2]/div[3]";
@@ -17,7 +17,7 @@ namespace PageObject.PageObject
         private const string inputSubscribeName = "//*[@id=\"subscription-form\"]/span[1]/input";
         private const string inputSubscribeEmail = "//*[@id=\"subscription-form\"]/span[2]/input";
         private const string subscribeButton = "//*[@id=\"subscription-form\"]/button";
-        private const string outputSubscribeMessage = "//div[@class=\"text\"]";
+        private const string outputSubscribeMessage = "/div[@class=\"subscription-block__inner\"]/div/div/div[@class=\"text\"]";
 
 
         [FindsBy(How = How.XPath, Using = accountButtonField)]
