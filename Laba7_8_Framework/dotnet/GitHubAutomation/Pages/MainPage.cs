@@ -16,7 +16,7 @@ namespace GitHubAutomation.Pages
             this.driver = driver;
         }
         // Ввод неверного email при регистрации
-        private const string accountButtonField = "//*[@class=\"selen-7anxb49cjn\"]";
+        private const string accountButtonField = "/html/body/div[3]/div[2]/div/ul[2]/li[1]/span/span";
         private const string registrationButtonOnForm = "//*[@id=\"react-popup\"]/div/div[2]/div[5]/div[2]/a";
         private const string registrationEmailInput = "//*[@id=\"react-popup\"]/div/div[2]/div[2]/div[2]/input";
         private const string confirmRegistrationButton = "//*[@id=\"react-popup\"]/div/div[2]/div[3]";
@@ -42,7 +42,7 @@ namespace GitHubAutomation.Pages
         private const string searhButton = "//*[@id=\"b-search\"]/form/fieldset/button";
         private const string firstSearchedProductName = "//*[@class=\"result__name\"]";
 
-        private const string vkFooterIcon= "//*[@class=\"b-footer__address\"]/*/*[@class=\"b-social_icon cr-social-vk\"]";
+        private const string vkFooterIcon= "//*[@id=\"footer-inner\"]/div[2]/a[1]";
 
 
 
