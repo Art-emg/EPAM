@@ -30,7 +30,7 @@ namespace Framework.Tests
             });
           
         }
-
+		/*
         [Test]
         public void DiscountSubscriptionTest()
         {
@@ -171,22 +171,8 @@ namespace Framework.Tests
 
             });
         }
-
-        [Test]
-        public void ClickRedirectVkIconFooter()
-        {
-            MakeScreenshotWhenFail(() =>
-            {
-                Driver.Navigate().GoToUrl("https://21vek.by/");
-                IJavaScriptExecutor js = (IJavaScriptExecutor)Driver;
-                js.ExecuteScript("window.scrollTo(0, document.body.scrollHeight);");
-                string redirectUrl = new MainPage(Driver).ClickVkFooterIcon();
-                Assert.AreEqual("https://vk.com/21vek_by", redirectUrl);
-
-            });
-        }
-
-        [Test]
+		
+		[Test]
         public void AddProductToFavorite()
         {
             MakeScreenshotWhenFail(() =>
@@ -202,5 +188,21 @@ namespace Framework.Tests
 
             });
         }
+		*/
+        [Test]
+        public void ClickRedirectVkIconFooter()
+        {
+            MakeScreenshotWhenFail(() =>
+            {
+                Driver.Navigate().GoToUrl("https://21vek.by/");
+                IJavaScriptExecutor js = (IJavaScriptExecutor)Driver;
+                js.ExecuteScript("window.scrollTo(0, document.body.scrollHeight);");
+                string redirectUrl = new MainPage(Driver).ClickVkFooterIcon();
+                Assert.AreEqual("https://vk.com/21vek_by", redirectUrl);
+
+            });
+        }
+
+        
     }
 }
